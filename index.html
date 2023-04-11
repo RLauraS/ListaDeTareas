@@ -82,16 +82,42 @@
     </header>
     <main>
       <section class="d-flex flex-column flex-sm-row container my-5">
-        <article class="border-1 border-black col-5" style="flex-basis: 50%; margin-right: 15px;">
+        <article
+          class="border-1 border-black col-5"
+          style="flex-basis: 50%; margin-right: 15px"
+        >
           <form class="d-flex my-5 bg-body-tertiary" role="document">
-            <br>
-            <input class="form-control me-2" type="text" placeholder="Elemento de lista" aria-label="Elemento">
-            <br>
-            <button class="btn btn-outline-success" type="submit">Agregar a la lista</button>
+            <br />
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="Elemento de lista"
+              aria-label="Elemento"
+            />
+            <br />
+            <button class="btn btn-outline-success" type="submit">
+              Agregar a la lista
+            </button>
           </form>
         </article>
-        <article class="bg-warning d-flex row col-5" style="flex-basis: 50%;">
-          <h4>Lista: <hr></h4>
+        <article class="bg-warning d-flex row col-5" style="flex-basis: 50%">
+          <h4>
+            Lista:
+            <hr />
+          </h4>
+          <form class="form-check">
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
         </article>
       </section>
     </main>
